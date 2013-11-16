@@ -35,23 +35,14 @@
 
     <div class="reveal">
       <!-- Any section element inside of this container is displayed as a slide -->
-      <div class="slides">
-        <section data-markdown="slides/0-welcome.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:"></section>
-        <section data-markdown="slides/1-about-me.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:"></section>
-        <section data-markdown="slides/2-why-are-you-here.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:"></section>
-        <section data-markdown="slides/3-toc.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:"></section>
-        <section data-markdown="slides/4-linux-0.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:"></section>
-        <section data-markdown="slides/5-linux-1.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:"></section>
-        <section data-markdown="slides/6-linux-2.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:"></section>
-        <section data-markdown="slides/7-linux-3.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:"></section>
-        <section data-markdown="slides/8-python-0.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:"></section>
-        <section data-markdown="slides/9-python-1.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:"></section>
-        <section data-markdown="slides/10-python-2.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:"></section>
-        <section data-markdown="slides/11-python-3.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:"></section>
-        <section data-markdown="slides/12-cloud.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:"></section>
-        <section data-markdown="slides/13-recruit.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:"></section>
-        <section data-markdown="slides/14-end.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:"></section>
-        
+      <div class="slide">
+        <section data-markdown="slide-1-welcome.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:"></section>
+        <section data-markdown="slide-2-why-are-you-here.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:"></section>
+        <section data-markdown="slide-3-toc.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:"></section>
+        <section data-markdown="slide-4-linux-0.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:"></section>
+        <section data-markdown="slide-5-linux-1.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:"></section>
+        <section data-markdown="slide-6-linux-2.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:"></section>
+        <section data-markdown="slide-7-python-0.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:"></section>
       </div>
     </div>
     
@@ -70,7 +61,7 @@
 
        //theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
        theme: 'default',
-       transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+       transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
 
        // Optional libraries used to extend on reveal.js
        dependencies: [

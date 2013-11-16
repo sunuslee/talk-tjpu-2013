@@ -213,8 +213,8 @@ body {
 .reveal img,
 .reveal video,
 .reveal iframe {
-	max-width: 95%;
-	max-height: 95%;
+    max-width: 92%;
+    max-height: 92%;
 }
 
 /** Prevents layering issues in certain browser/transition combinations */
@@ -1219,6 +1219,7 @@ body {
  * BACKGROUND STATES [DEPRECATED]
  *********************************************/
 
+/*
 .reveal .state-background {
 	position: absolute;
 	width: 100%;
@@ -1230,6 +1231,28 @@ body {
 	    -ms-transition: background 800ms ease;
 	     -o-transition: background 800ms ease;
 	        transition: background 800ms ease;
+}
+*/
+.reveal .state-background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+
+	-webkit-transition: background 800ms ease;
+	   -moz-transition: background 800ms ease;
+	    -ms-transition: background 800ms ease;
+	     -o-transition: background 800ms ease;
+	        transition: background 800ms ease;
+}
+
+.alert .state-background {
+	background: rgba( 200, 50, 30, 0.6 );
+}
+.soothe .state-background {
+	background: rgba( 50, 200, 90, 0.4 );
+}
+.blackout .state-background {
+	background: rgba( 0, 0, 0, 0.6 );
 }
 .alert .reveal .state-background {
 	background: rgba( 200, 50, 30, 0.6 );
