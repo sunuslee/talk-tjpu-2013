@@ -1,0 +1,3 @@
+img[alt="Subway"] {
+height: 600px;
+}

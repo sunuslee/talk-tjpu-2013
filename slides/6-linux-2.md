@@ -1,13 +1,13 @@
-* This may be hard for you.
-![learn linux](resources/learn.png)
+### This may be hard for you.
+![learn](resources/learn.png)
 
 
-* Terminal
+### Terminal
 ![terminal](resources/term.png)
 
 
-* IDE I just built for this slide.
-![Ide-slide](resources/ide-slide.png)
+### IDE I just built for this slide.
+![ide](resources/ide-slide.png)
 
 
 That's not that easy. if you are interested. it uses:

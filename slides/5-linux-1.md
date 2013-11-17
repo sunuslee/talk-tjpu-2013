@@ -16,7 +16,7 @@
 * Make each program do one thing well.
 
 
-* It just like Subway:)
+###It just like Subway:)
 ![Subway](resources/subway.jpg)
 
 

@@ -1,0 +1,6 @@
+img[alt="unix"], img[alt="learn"], img[alt="terminal"], img[alt="ide"],
+img[alt="Subway"], img[alt="swap"], img[alt="cloud"], img[alt="daily"] {
+    max-height: 600px;
+    min-height: 600px;
+    min-width: 800px;
+}
