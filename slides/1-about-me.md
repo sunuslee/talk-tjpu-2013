@@ -1,4 +1,4 @@
-* sunus Lee (李啸天) @ 阿里巴巴 2014
+* sunus Lee
 * Linux脑残粉.
 * 大一之后喜爱coding.
 * 使用/学习的技术比较杂.(Linux, C, Python, Ruby, NodeJS, Javascript, ...)
